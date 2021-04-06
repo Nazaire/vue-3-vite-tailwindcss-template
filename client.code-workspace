@@ -1,0 +1,77 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.formatOnSave": true,
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#5a1b40",
+      "activityBar.activeBorder": "#577b25",
+      "activityBar.background": "#5a1b40",
+      "activityBar.foreground": "#e7e7e7",
+      "activityBar.inactiveForeground": "#e7e7e799",
+      "activityBarBadge.background": "#577b25",
+      "activityBarBadge.foreground": "#e7e7e7",
+      "statusBar.background": "#330f24",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBarItem.hoverBackground": "#5a1b40",
+      "titleBar.activeBackground": "#330f24",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.inactiveBackground": "#330f2499",
+      "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#330f24",
+    "files.exclude": {
+      "/Users/nazaire/Code/@jcjewels/concord-client": false,
+      ".vscode": false,
+      "assets": false,
+      "layouts": false,
+      "middleware": false,
+      "mixins": false,
+      "mixins/MutationSchemaMixin copy.js": false,
+      "mixins/MutationSchemaMixin.js": false,
+      "mixins/TableSchemaMixin.js": false,
+      "mixins/WindowContextMixin.js": false,
+      "node_modules": false,
+      "plugins": false,
+      "plugins/apollo-config.js": false,
+      "plugins/plugins.js": false,
+      "plugins/README.md": false,
+      "static": false,
+      "static/favicon.ico": false,
+      "static/README.md": false,
+      "store": false,
+      ".editorconfig": false,
+      ".gitignore": false,
+      "apollo.config.js": false,
+      "concord-client.code-workspace": false,
+      "jsconfig.json": false,
+      "nuxt.config.js": false,
+      "package.json": false,
+      "README.md": false,
+      "tailwind.config.js": false,
+      "yarn-error.log": false,
+      "yarn.lock": false,
+      ".nuxt": false,
+      ".npmrc": false
+    },
+    "workspace.isHidden": false,
+    "volar.tsPlugin": true
+  },
+  "extensions": {
+    "recommendations": [
+      "aaron-bond.better-comments",
+      "apollographql.vscode-apollo",
+      "graphql.vscode-graphql",
+      "esbenp.prettier-vscode",
+      "rbbit.typescript-hero",
+      "vscode-icons-team.vscode-icons",
+      "eamodio.gitlens"
+    ]
+  }
+}

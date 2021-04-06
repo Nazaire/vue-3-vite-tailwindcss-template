@@ -1,0 +1,33 @@
+{
+  "name": "vue3-vite-tailwindcss-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "patch-package",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^14.14.37",
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.11",
+    "typescript": "^4.2.3",
+    "vite": "^2.1.5"
+  },
+  "dependencies": {
+    "@animxyz/vue3": "^0.5.0",
+    "@tailwindcss/forms": "^0.3.2",
+    "autoprefixer": "^10.2.5",
+    "lodash": "^4.17.21",
+    "patch-package": "^6.4.7",
+    "postcss": "^8.2.9",
+    "postcss-nested": "^5.0.5",
+    "postinstall-postinstall": "^2.1.0",
+    "tailwindcss": "^2.1.1",
+    "vue": "^3.0.11",
+    "vue-router": "^4.0.5"
+  }
+}

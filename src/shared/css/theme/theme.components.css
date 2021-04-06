@@ -1,0 +1,123 @@
+@layer components {
+  /*
+   * Buttons
+   */
+
+  .btn:disabled {
+    @apply opacity-50;
+  }
+
+  .btn {
+    @apply transition-all;
+    @apply cursor-pointer inline-flex items-center border border-transparent font-medium shadow-sm;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+    @apply text-white bg-indigo-600 hover:bg-indigo-700;
+  }
+
+  .btn-secondary {
+    @apply cursor-pointer inline-flex items-center border border-transparent font-medium shadow-sm;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+    @apply text-indigo-700 bg-indigo-100 hover:bg-indigo-200;
+  }
+
+  .btn-transparent {
+    @apply cursor-pointer inline-flex items-center border border-transparent font-medium shadow-none;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+    @apply border-transparent text-gray-700 bg-transparent hover:border-gray-300 hover:bg-transparent;
+  }
+
+  .btn-white {
+    @apply cursor-pointer inline-flex items-center border border-transparent font-medium shadow-sm;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+    @apply border-gray-300  bg-white hover:bg-gray-50 text-gray-700;
+  }
+
+  .btn-blue {
+    @apply cursor-pointer inline-flex items-center border border-transparent font-medium shadow-sm;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+    @apply bg-blue-600 hover:bg-blue-700 text-white;
+  }
+
+  .btn-blue-secondary {
+    @apply cursor-pointer inline-flex items-center border border-transparent font-medium shadow-sm;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+    @apply text-blue-700 bg-blue-100 hover:bg-blue-200;
+  }
+
+  .btn-red {
+    @apply cursor-pointer inline-flex items-center border border-transparent font-medium shadow-sm;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+    @apply bg-red-600 hover:bg-red-700 text-white;
+  }
+
+  .btn-red-secondary {
+    @apply cursor-pointer inline-flex items-center border border-transparent font-medium shadow-sm;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+    @apply text-red-700 bg-red-100 hover:bg-red-200;
+  }
+
+  /* .btn-accent {
+    @apply cursor-pointer inline-flex items-center border border-transparent font-medium shadow-sm;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+    @apply bg-brand-accent hover:bg-red-700 text-white;
+  } */
+
+  .btn-gray {
+    @apply cursor-pointer inline-flex items-center border border-transparent font-medium shadow-sm;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+    @apply bg-gray-800 hover:bg-gray-900 text-white;
+  }
+
+  .btn-gray-secondary {
+    @apply cursor-pointer inline-flex items-center border border-transparent font-medium shadow-sm;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+    @apply bg-gray-100 hover:bg-gray-200 text-gray-700;
+  }
+
+  /*
+   * Sizes
+   */
+  .btn-1 {
+    @apply px-2.5 py-1.5 text-xs rounded;
+  }
+
+  .btn-2 {
+    @apply px-3 py-2 text-xs leading-4 rounded-md;
+  }
+
+  .btn-3 {
+    @apply px-4 py-2 text-sm rounded-md;
+  }
+
+  .btn-4 {
+    @apply px-4 py-2 text-base rounded-md;
+  }
+
+  .btn-5 {
+    @apply px-6 py-3 text-base rounded-md;
+  }
+
+  /*
+   * Inputs
+   */
+  input[type="text"].theme,
+  input[type="email"].theme,
+  input[type="number"].theme,
+  textarea.theme {
+    @apply block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md;
+  }
+
+  input[type="text"].theme:disabled,
+  input[type="email"].theme:disabled,
+  input[type="number"].theme:disabled,
+  textarea.theme {
+    @apply bg-gray-100 text-gray-500 cursor-not-allowed border-gray-200 shadow-none;
+  }
+
+  /*
+   * Icon box
+   */
+  .icon-box {
+    @apply flex items-center justify-center h-12 w-12 rounded-md bg-gray-600 text-white;
+  }
+}
